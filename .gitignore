@@ -1,0 +1,54 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go binary
+*.exe
+*.test
+*.out
+
+# Go build output
+/_obj/
+/_test/
+/_testmain.go
+/_testmain.go~
+
+# Go coverage profile
+*.coverprofile
+
+# Go generated files
+/_obj/
+/_test/
+/_testmain.go
+/_testmain.go~
+
+# Go vendoring
+/vendor/
+/Godeps/
+
+# Go module
+/go.mod
+/go.sum
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Commit notes
+
+commit.notes.txt
