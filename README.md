@@ -10,7 +10,7 @@ Here are some useful links to get started:
 
 - [Installation](#installation): Instructions on how to install the project.
 - [Usage](#usage): Instructions on how to use the project.
-- [API Documentation](#apiDocumentation): Description of mock API.
+- [API Documentation](#api-documentation): Description of mock API.
 - [Contributing](#contributing): Guidelines for contributing to the project.
 - [License](#license): Information about the project's license.
 
