@@ -1,9 +1,11 @@
 package main
 
 import (
-	"github.com/chava.gnolasco/fakeapi/models"
-
 	"log"
+	"net/http"
+
+	"github.com/chava.gnolasco/fakeapi/models"
+	"github.com/gin-gonic/gin"
 )
 
 var products = make([]models.Product, 0)
@@ -23,4 +25,14 @@ func main() {
 	for index, product := range products {
 		log.Printf(" - Product [%d] : [%s]\n", index, product.ToString())
 	}
+
+	/*
+		GET Request for /products endpoint
+	*/
+	engine := gin.Default()
+	engine.GET("/products", func(context *gin.Context) {
+		context.IndentedJSON(http.StatusOK, products)
+	})
+
+	engine.Run("localhost:8080")
 }

@@ -23,6 +23,7 @@ To install this project, follow these steps:
 
 1. Clone the repository.
 2. Run `go mod download` to download the project dependencies.
+3. go get -u github.com/gin-gonic/gin added the go.mod dependencies
 
 ## Usage
 
@@ -39,7 +40,7 @@ To use this project, follow these steps:
 
 ### Request example
 
-> curl -X GET http://localhost:3000/products
+> curl -X GET http://localhost:8080/products
 
 ### Response example
 
