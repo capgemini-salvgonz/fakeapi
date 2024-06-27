@@ -34,5 +34,5 @@ func main() {
 		context.IndentedJSON(http.StatusOK, products)
 	})
 
-	engine.Run("localhost:8080")
+	engine.Run(":8080")
 }
